@@ -1,0 +1,160 @@
+.container-arthur{
+    width: 80vw;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.superior{
+    display: flex;
+    flex-direction: row;
+}
+
+.superior__header{
+    height: 96vh;
+    background-color: black;
+    width: 30%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.header__img{
+    height: 500px;
+    /* height: 30%; */
+    object-fit: contain;
+}
+
+.header__name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffc54e;
+    justify-content: center;
+}
+
+.name__arthur{
+    background-color: #5c3c08;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.name__conan{
+    margin-left: 2em;
+    background-color: #bf4d00;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.name__doyle{
+    background-color: #5c3c08;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* SUPERIOR (HEADER Y (NAV-SECTION) */
+.superior{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* SUPERIOR DERECHA (NAV-SECTION) */
+.derecha__nav-section{
+    padding-top: 2.8em;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+}
+/* BARRA DE NAVEGACIÓN */
+.nav__flex{
+    height: 20%;
+    
+}
+.navArthur{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navArthur__item{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    padding: 1em 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navArthur__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.formulario-arthur{
+    font-size: 1.5rem;
+}
+
+
+.inferior__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+/* css del formulario */
+.formulario-arthur-area {
+    padding: 1rem;
+  }
+  
+  .div-formulario {
+    margin-bottom: 1rem;
+  }
+  
+  .formulario__label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .formulario__input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .formulario__input--textarea {
+    height: 6rem;
+  }
+  
+  .div-formulario--actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .formulario__button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .form__button--submit {
+    margin-right: 0.5rem;
+  }
+  

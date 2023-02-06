@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Conan Doyle</title>
+    <link rel="stylesheet" href="./css/contacta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container-arthur">
+    <!-- CABECERA IMAGEN Y NOMBRE DEL AUTOR -->
+    <div class="superior">
+        <header class="superior__header">
+            <img src="./img/autor2_SinFondo.png" alt="" class="header__img">
+            </img>
+            <h1 class="header__name">
+                <span class="name__arthur">ARTHUR</span>
+                <span class="name__conan">CONAN</span>
+                <span class="name__doyle">DOYLE</span>
+            </h1>
+        </header>
+        <div class="derecha__nav-section">
+            <nav class="navegacion-arthur">
+                <nav class="navArthur">
+                    <div class="navArthur__item inicio"><a href="./index.html">INICIO</a></div>
+                    <div class="navArthur__item catalogo"><a href="./ofertas.html">OFERTAS</a></div>
+                    <div class="navArthur__item arthur"><a href="./catalogo.html">CATÁLOGO</a></div>
+                    <div class="navArthur__item contacta"><a href="./contacta.html">CONTACTA</a></div>
+                </nav>
+            </nav>
+
+            <section class="formulario-arthur">
+                <h2>ESCRÍBEME</h2>
+                <h3>FORMULARIO</h3>
+            <!-- APLICANDO EL FORMATO BEM -->
+                <form class="formulario-arthur-area">
+                    <!-- NOMBRE -->
+                    <div class="div-formulario">
+                      <label class="formulario__label" for="nombre">Nombre</label>
+                      <input class="formulario__input" type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <!-- APELLIDO -->
+                    <div class="div-formulario">
+                      <label class="form__label" for="apellido">Apellido</label>
+                      <input class="formulario__input" type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <!-- VALIDAMOS QUE SEA UN CORREO -->
+                    <!-- CORREO -->
+                    <div class="div-formulario">
+                      <label class="formulario__label" for="email">Correo</label>
+                      <input class="formulario__input" type="email" id="email" name="email" required>
+                    </div>
+                    <!-- MENSAJE -->
+                    <div class="div-formulario">
+                      <label class="form__label" for="message">Mensaje</label>
+                      <textarea class="form__input form__input--textarea" id="message" name="message" required></textarea>
+                    </div>
+                    <!-- BOTONES -->
+                    <div class="div-formulario div-formulario--actions">
+                      <button class="formulario__button form__button--enviar" type="submit">Enviar</button>
+                      <button class="formulario__button form__button--reseteo" type="reset">Borrar campos</button>
+                    </div>
+                  </form>
+                  
+                
+            </section>
+            
+            <footer class="inferior__footer">
+                <p>© 2023 Arthur Conan Doyle</p>
+            </footer>
+          
+        </div>
+        
+    </div>
+    
+    
+    
+</div>
+</body>
+</html>

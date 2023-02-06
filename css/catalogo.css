@@ -1,0 +1,86 @@
+.container-catalogo{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    width: 80vw;
+    height: 852px;
+    margin: 0 auto;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header-nav{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__title{
+    width: 30%;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.nav{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+
+}
+
+.nav-item{
+    width: 100%;
+    height: 30%;
+    padding: 1em 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* CATALOGO */
+
+.catalogo{
+    width: 100%;
+    height: 460px;
+    padding-top: 5em;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+/* IMÁGENES DEL CATÁLOGO ANIMACIÓN FLEXBOX */
+.img{
+    min-width: 260px;
+    flex: 1;
+    transition: .3s flex;
+}
+
+.img:hover{
+    flex: 2;
+}
+
+/* IMAGENES INCLINADAS DEL CATÁLOGO */
+
+.img{
+    height: 520px;
+    border: 10px solid #757373;
+    border-radius: 0 0 60px 60px;
+    border-bottom: 60px solid #757373;
+    object-fit: fill;
+    transform: rotate(-5deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

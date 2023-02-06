@@ -1,0 +1,63 @@
+.containerOfertas{
+    /* box-sizing: border-box;
+    border: 1px solid #000; */
+
+    /* width: 1400px; */
+    width: 90vw;
+    height: 852px;
+    margin: 0 auto;
+
+    /* grid */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+        "header nav nav"
+        "header nav nav"
+        "oferPr descPr descripPr"
+        "oferPr descPr descripPr"
+        "ofer1 ofer2 ofer3"
+        "ofer1 ofer2 ofer3";
+}
+
+/* AGREGANDO SU AREA A CADA ELEMENTO */
+/* header */
+.ofertas{
+    grid-area: header;
+}
+/* nav */
+.navOfertas{
+    grid-area: nav;
+}
+/* oferta principal imagen */
+.imagen-ofertaPrincipal{
+    grid-area: oferPr;
+    background-color: #b09963;
+
+}
+/* oferta principal descuento */
+.descuento-ofertaPrincipal{
+    grid-area: descPr;
+    background-color: #b09963;    
+}
+/* oferta principal descripcion */
+.descripcion-ofertaPrincipal{
+    grid-area: descripPr;
+    background-color: #b09963;
+}
+/* oferta 1 */
+.oferta-secundaria-1{
+    grid-area: ofer1;
+    background-color: #589ba1;
+}
+/* oferta 2 */
+.oferta-secundaria-2{
+    grid-area: ofer2;
+    background-color: #589ba1;
+}
+/* oferta 3 */
+.oferta-secundaria-3{
+    grid-area: ofer3;
+    background-color: #589ba1;
+}
+
